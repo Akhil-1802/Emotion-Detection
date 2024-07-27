@@ -1,6 +1,4 @@
 import pickle
-from tkinter import Image
-
 import streamlit as st
 import numpy as np
 from skimage.transform import resize
