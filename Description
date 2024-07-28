@@ -1,5 +1,9 @@
 Model1 and Model2 are the machine learning model on emotion detection.
-In Model1 , I used SVC training the model and accuracy and classification report is listed below:
+In Model1 , The dataset is used from kaggle is listed below:
+https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer/data
+
+I used Support Vector Machine(SVM) algorithm for training the model and dumped the file so that I can use the trained model for building webpage.
+Accuracy and classification report is listed below:
 
 Accuracy Score: 0.42105263157894735
 Classification report:precision  recall  f1-score   support
@@ -13,4 +17,5 @@ Classification report:precision  recall  f1-score   support
    macro avg       0.76      0.32      0.27      4028
 weighted avg       0.70      0.42      0.31      4028
 
-In Model2, I imported a deepface library which gives me emotion,gender and age of person in the image with precise accuracy.
+I used that pickle file in Emotion_Detection.py for building a small webpage , it is not that much accurate as model is not trained for much data , therefore it has less accuracy.
+I recommened Model2.py, in which I imported a deepface library which gives me emotion,gender and age of person in the image with precise accuracy.
