@@ -1,0 +1,16 @@
+Model1 and Model2 are the machine learning model on emotion detection.
+In Model1 , I used SVC training the model and accuracy and classification report is listed below:
+
+Accuracy Score: 0.42105263157894735
+Classification report :               precision    recall  f1-score   support
+
+           0       0.96      0.08      0.15       799
+           1       0.91      0.13      0.23       820
+           2       0.39      1.00      0.56      1443
+           3       0.77      0.09      0.16       966
+
+    accuracy                           0.42      4028
+   macro avg       0.76      0.32      0.27      4028
+weighted avg       0.70      0.42      0.31      4028
+
+In Model2, I imported a deepface library which gives me emotion,gender and age of person in the image with precise accuracy.
